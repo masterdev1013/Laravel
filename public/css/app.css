@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body,
+html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #050f3f;
+}
+
+#first:hover,
+#second:hover,
+#third:hover,
+#fourth:hover,
+#fifth:hover,
+#sixth:hover
+ {
+    color:#FF0093;
+    text-decoration: underline;
+    text-decoration-color: #FF0093;
+
+}
+#focu_input {
+    border: 0 solid #e5e7eb
+}
+
+#focu_input:hover {
+    border-bottom-color: red;
+    z-index: 9;
+}
+#svgg {
+    border-radius: 50%;
+    border:1px solid black;
+    padding:5px;
+}
+#underli span {
+    position: absolute;
+    top:20px;
+    width:50px;
+    height: 5px;
+    background-color: #FF0093;
+}
+
+#svg h1 {
+    display: flex;
+}
+
+#svg h1 svg {
+    margin-left: 10px;
+    width:20px;
+    height: 22px;
+}
+#icon {
+    display: flex;
+    flex-direction: row;
+}
+/* #icon img {
+    margin-top: 10px;
+    margin-right: 4px;
+    width:20px;
+    height:20px;
+    align-items: center;
+} */
+#button {
+    padding:5px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+.mydiv a {
+    margin-left: 10px;
+}
+.mydiv a:hover {
+    text-decoration: underline;
+}
+#input {
+    margin-right: 20px;
+    width: 550px;
+}
+.nav-link:hover {
+    color:#FF0093;
+    text-decoration: underline;
+    text-decoration-color: #FF0093;
+}
+
+input:focus {
+    outline: none;
+}
+
+form input:focus {
+    outline: none;
+    border: 2px solid #ff0093;
+}
+
+.text-gradient-orange {
+    background: linear-gradient(90deg, #fd4680, #fea75c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-blue {
+    background: linear-gradient(94.77deg, #1db8ba 8.95%, #28f0c0 19.61%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #fd4680, #fea75c);
+}
+
+.darken {
+    box-shadow: 0 0 9.3578px rgba(0, 0, 0, 0.1);
+}
+
+#slider {
+    position: relative;
+    white-space: nowrap;
+}
+
+#slider span {
+    transition: 0.3s;
+}
+
+#overlay {
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 1s;
+}
+
+#leftnav {
+    width: 25vw;
+    height: 100%;
+    transition: 1s;
+    left: -25vw;
+}
